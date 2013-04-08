@@ -70,7 +70,7 @@ then
 
 
     echo -n "       Installing LevelDB..."
-    pip install --use-mirrors leveldb #> /dev/null 2>&1
+    pip install --use-mirrors leveldb > /dev/null 2>&1
     echo " done"
 	
 fi
