@@ -67,6 +67,12 @@ then
     echo -n "       Installing Bazaar..."
     pip install --use-mirrors bzr > /dev/null 2>&1
     echo " done"
+
+
+    echo -n "       Installing LevelDB..."
+    pip install --use-mirrors leveldb > /dev/null 2>&1
+    echo " done"
+	
 fi
 
 name=$(cat $build/.godir)
